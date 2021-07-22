@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background: linear-gradient(#faeec0, #eed869);
+    font-family: 'Mulish', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
+.header__img{
+    width: 255px;
+    height: 80px;
+    margin: 20px;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+}
